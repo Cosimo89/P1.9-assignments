@@ -4,7 +4,9 @@ import sys
 
 if len(sys.argv)==1:
 
-    Input=input("Please select a function: \n 1: x \n 2: x**2\n 3: x**3\n 4: sin(x) \n 5: cos(x) \n 6: tan(x) ")
+
+    Input=input("Please select a function: \n 1: x \n 2: x**2\n 3: x**3\n 4: sin(x) \n 5: cos(x) \n 6: tan(x) \n 7: exp(x) \n 8: sqrt(x) ")
+
 
 else:
     Input=(int)(sys.argv[1])
@@ -28,6 +30,11 @@ if Input == 5:
     yval=cos(xval)
 if Input == 6:
     yval=tan(xval)
+if Input == 7:
+    yval=exp(xval)
+if Input == 8:
+    yval=sqrt(xval)
+
 
 
 plot (xval,yval, 'b')
