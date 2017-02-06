@@ -9,4 +9,7 @@ xval=arange(-5.0,5.0,0.1)
 if Input == 1:
     yval=xval 
 
+plot (xval,yval, 'b')
+show()
+
 
