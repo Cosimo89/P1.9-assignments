@@ -10,7 +10,7 @@ else:
     Input=(int)(sys.argv[1])
 
 
-xval=arange(-5.0,5.0,0.1)
+xval=arange(-3.0,3.0,0.1)
 
 
 if Input == 1:
